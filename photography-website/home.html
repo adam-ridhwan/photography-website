@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Adam Ridhwan Photography</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/802e4a949d.js" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="about">
+            <div class="about-content">
+                <div class="about-img flex">
+                    <div id="voyage">
+                        <img src="images/about-img.jpg" alt="photographer img">
+                    </div>
+                </div>
+                <h2 >Adam Ridhwan</h2>
+                <h3>Photographer</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- gallery section -->
+    <div id="section-1">
+        <div class="gallery">
+            <div class="container-fluid">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ny-1.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ny-1.jpg" alt="New York">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ny-2.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ny-2.jpg" alt="New York">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ny-3.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ny-3.jpg" alt="New York">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ice-1.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ice-1.jpg" alt="Iceland">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ice-4.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ice-4.jpg" alt="Iceland">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ice-2.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ice-2.jpg" alt="Iceland">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/aus-1.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/aus-1.jpg" alt="Australia">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/aus-2.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/aus-2.jpg" alt="Australia">
+                        </a>
+                    </div>
+        
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="images/ny-4.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/ny-4.jpg" alt="New York">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+ 
+   
+    <!-- contact section -->
+    <div class="section-4">
+        <div class="container">
+            <div class="contact-top">
+                <h3>CONTACT ME</h3>
+            </div>
+        </div>
+
+        <div class="contact-bottom">
+            <form class="form" id="myForm" action="https://formspree.io/f/xjvlbrqo" method="POST">
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email"  name="_replyto" id="email" >
+                <textarea name="message" rows = "9" placeholder="Message" id="message"></textarea>
+            <button type="submit" class="contactBtn">Send Message</button>
+            </form>
+            <div>
+                <button id="clearText" class="contactBtn clearBtn">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- footer section -->
+    <footer class = "footer">
+        <div>
+            <h2>ADAM RIDHWAN</h2>
+        </div>
+            <div class="footer-container">
+                <div>
+                    <h3><i class = "fas fa-map-signs"></i>&nbsp;Location</h3>
+                    <p>Allston, MA</p>
+                </div>
+
+                <div>
+                    <h3><i class = "fas fa-phone"></i>&nbsp;Contact Number</h3>
+                    <p>+1 (617) 816 - 4892</p>
+                </div>
+
+                <div>
+                    <h3><i class = "fas fa-paper-plane"></i>&nbsp;Email Address</h3>
+                        <p id="send-email">adamridhwan.1@gmail.com</p>
+                </div>
+
+                <div>
+                    <h3><i class = "fas fa-globe"></i>&nbsp;Website</h3>
+                    <div></div>
+                    <p>www.adamridhwan.com</p>
+                </div>
+            </div>
+        <p>&copy; Copyright ADAM RIDHWAN</p>
+    </footer>
+</html>
